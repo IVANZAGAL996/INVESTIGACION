@@ -139,9 +139,7 @@ Toda la información del mundo físico que ya fue transformada a un sistema digi
 
 ## TIPOS DE ACONDICIONADOR DE SEÑAL
 
-![](https://github.com/IVANZAGAL996/INVESTIGACION/blob/main/Captura.PNG?raw=true)
-![](https://github.com/IVANZAGAL996/INVESTIGACION/blob/main/Captura.PNG?raw=true)
-
-
+![](https://github.com/IVANZAGAL996/INVESTIGACION/blob/main/TIPOS%20DE%20ACONDICIONDOR%20DE%20SE%C3%91AL.PNG?raw=true)
+![]()
 
 
