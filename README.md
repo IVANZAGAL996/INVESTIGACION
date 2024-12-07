@@ -54,6 +54,8 @@ El propósito de los HMI es mostrar información operativa en tiempo real y de f
 
 La adquisición de datos es el proceso en el cual tomamos muestras de una magnitud medible, ya sea física o eléctrica, para poder manipular estos datos desde un dispositivo electrónico, como puede ser un ordenador. Para poder obtener esos datos en nuestro dispositivo es necesario un elemento intermedio, que se encargue de convertir la magnitud física en una señal digital, ese elemento es conocido como ‘tarjeta de adquisición de datos’. El proceso es más complejo que ‘tomar muestras y manipular’, el primer paso para la adquisición de datos es adquirir la señal deseada mediante sensores: velocidad, presión, temperatura, etc. Una vez hemos obtenido la señal es necesario un acondicionamiento de ésta misma, este proceso puede incluir diversas transformaciones para adaptar la señal original a nuestro sistema. Y, por último, convertimos la señal digitalmente para poder trabajar con ella desde nuestro ordenador. Figura 1: Diagrama del proceso de adquisición de datos.
 
+![](https://github.com/IVANZAGAL996/INVESTIGACION/blob/main/Captura.PNG?raw=true)
+
 
 Existe un amplio abanico de diferentes tarjetas de adquisición de datos, en un gran rango de diferentes precios, dependiendo del formato, número de puertos de E/S, otro tipo de características y del fabricante.
 
@@ -78,55 +80,55 @@ Los sensores son herramientas que detectan y responden a algún tipo de informac
 ## TIPOS DE SENSORES
 
 Según el tipo de variable que pueda percibir e interpretar un sensor, se pueden definir varios tipos. Cada uno de ellos tiene propiedades únicas que los hacen útiles en escenarios muy específicos. A continuación, explicaremos los más importantes en el sector industrial:
-Sensores de distancia
+### Sensores de distancia
 Los sensores de distancia permiten medir cuánto espacio separa un punto de otro. Es decir, miden la distancia lineal entre dos elementos de interés. Una de sus mayores utilidades se encuentra en los equipos para la detección de movimiento y vigilancia perimetral.
 Este tipo de detectores se puede apoyar en un gran número de tecnologías, normalmente, a través de infrarrojos, medidores ultrasónicos y receptores de ondas de alta frecuencia.
-Sensores de frecuencia de luz
+### Sensores de frecuencia de luz
 Los sensores de frecuencia de luz pueden percibir impulsos lumínicos y decodificar la intensidad de frecuencia de estos, dando como resultado un parámetro que puede contrastarse en una escala ayudando a detectar color.
 Aunque suelen ser denominados sensores de color porque usan como referencia el rojo, el azul y el verde, su verdadera utilidad es mucho más profunda que eso. Son capaces de detectar minúsculas variaciones en la luz devuelta por una superficie, incluso cuando estas son invisibles al ojo humano.
 Son ideales para analizar superficies como etiquetas y paquetes para determinar si existe algún error en la imprenta; establecer posibles intrusos y clasificar objetos que comparten transporte en una misma línea de producción.
-Sensores de humedad
+### Sensores de humedad
 Los sensores de humedad permiten medir la temperatura y la cantidad de humedad relativa en el aire dentro de un espacio específico. Los resultados de estas medidas son transmitidos a impulsos eléctricos, usualmente para disparar un mecanismo mayor.
 Son esenciales dentro de maquinarias industriales que operan con componentes químicos, almacenaje de productos secos, medir riesgos en el depósito, detectar fuga en calderas cerradas y, sobre todo, dentro de la industria agroalimentaria para controlar los espacios de invernadero o la necesidad de riego en las plantas.
 Los sensores más avanzados pueden medir los niveles de humedad incluso en superficies o dentro de determinadas fibras sintéticas.
-Sensores de luz
+### Sensores de luz
 Un sensor de luz es un dispositivo capaz de percibir la luz ambiental (o la que se origina de un punto en concreto) y luego reaccionar a ella con un impulso eléctrico que varía dependiendo de la intensidad de la luz que ha detectado.
 A mayor lectura de luz, mayor intensidad en la respuesta eléctrica.
 Este tipo de sensores también pueden estabilizarse para reaccionar ante determinadas intensidades, por lo que se les conocen también como sensores de luminosidad, dado que reaccionan a las variaciones de luz ambiental.
 Estos sensores son especialmente útiles para la regulación de consumo de energía en espacios controlados porque pueden apagar o encender las celdas de iluminación según sea necesario, por mencionar un ejemplo.
-Sensores de Posición
+### Sensores de Posición
 Los sensores de posición, tal como lo indica su nombre, permiten medir la posición lineal o angular de un objeto con respecto a un plano (o usándose a sí mismo como referencia), para transformarla en una señal eléctrica que puede ser interpretada por un sistema de control mayor.
 Después de los sensores de temperatura, los sensores de posición son los dispositivos de captación de magnitudes más utilizados a nivel industrial.
 Estos dispositivos permiten controlar el movimiento de todo tipo de equipos de robótica para la realización de una infinidad de trabajos que requieran la reubicación de piezas como brazos mecánicos, soldadores o cortadores.
-Sensores de presión
+### Sensores de presión
 Los sensores de presión permiten determinar el nivel de presión que ejerce un fluido dentro de un espacio definido. A través de esta medición se pueden controlar un sinfín de acciones dentro de una industria. Son especialmente demandados en seguridad industrial para la prevención de eventos catastróficos.
 Una gran cantidad de espacios son susceptibles a la medición de presión, usualmente los compartimientos internos de las maquinarias o las calderas de evaporación.
 Los sensores de presión pueden usarse para obtener otras variables como la cantidad de flujo que circula por un espacio cerrado, la velocidad e incluso el contenido de ciertos envases, si es que se conocen algunos datos básicos del producto.
-Sensores de proximidad
+### Sensores de proximidad
 Los detectores de proximidad ayudan a detectar la presencia de un objeto y su cercanía con el punto de referencia (usualmente el mismo sensor). Suelen funcionar con un par de dispositivos, un emisor y un receptor. El emisor envía una señal cada cierto tiempo y el receptor busca el rebote de la señal lo que le indica la proximidad del objeto.
 Los sensores de proximidad pueden devolver muchos datos relevantes sobre los objetos que miden o detectan dentro de su campo de funcionamiento.
 Su utilidad es prácticamente ilimitada, pero se ve con frecuencia dentro de los cobots, los vehículos no tripulados y las estaciones de seguridad o vigilancia autónoma.
-Sensores de sonido
+### Sensores de sonido
 Los detectores de sonido reciben ondas acústicas en el ambiente producto de las ondas mecánicas que se generan a partir de las oscilaciones de precio de aire y, dependiendo de los niveles de intensidad para los que esté programada su respuesta, convierte estas perturbaciones en impulsos eléctricos.
 Este tipo de sensores suelen ser muy pequeños en comparación con otros y poseen aplicaciones muy prácticas en la tecnología moderna como la detección de comandos de voz, la vigilancia inteligente o la medición de intensidad de trabajo de un equipo.
 Medir las ondas de sonido también es importante dentro del ámbito de la seguridad industrial, ya que ayuda a descartar potenciales condiciones riesgosas para el personal humano.
-Sensores de temperatura
+### Sensores de temperatura
 Los sensores de temperatura son los más utilizados dentro del ámbito industrial y ayudan a medir la diferencia de energía calórica que existe entre un punto de referencia y el campo que se está midiendo, convirtiendo dichos datos en salidas eléctricas. Miden el calor.
 Los sensores de temperatura suelen funcionar a través de resistencias, aunque hay muchas formas de operarlos.
 Fusionan en una cantidad masiva de equipos dada su naturaleza. Con ellos se puede medir: el nivel de trabajo de un equipo, detección de anomalías en circuitos, controlar ciclos de enfriadores y mucho más.
- Sensores de velocidad
+ ### Sensores de velocidad
 Los sensores de velocidad ayudan a detectar el lapso de tiempo que existe entre los cambios de posición de un objeto. Miden la velocidad de un cuerpo con relación a un punto de referencia. Los datos obtenidos son transformados en impulsos eléctricos.
 Los sensores de velocidad tienen usos puntuales, como la detección de movimiento en un vehículo, la medición de trabajo en una banda de caucho, la velocidad de desplazamiento de un equipo industrial, entre otras.
- Sensores magnéticos
+ ### Sensores magnéticos
 Los sensores magnéticos son dispositivos medianamente sofisticados que, gracias a placas imantadas o conducción eléctrica, pueden detectar campos magnéticos (y su intensidad) dentro de un área sensible, convirtiendo dichos datos en impulsos eléctricos.
 Este tipo de sensores tienen un gran número de aplicaciones tanto dentro como fuera de la industria. Fuera de ella, sirven para la detección de proximidad de un polo imantado, lo que ayuda a identificar fallos de seguridad o llevar controles abierto-cerrado en ciertas áreas.
 Dentro de la industria pueden usarse para detección de proximidad o posición relativa de un objeto metálico, por ejemplo, los émbolos de cilindro neumático.
- Sensores ópticos
+ ### Sensores ópticos
 Los sensores ópticos son esenciales dentro de la robótica porque son los que permiten “ver” determinados objetos y transformar esta respuesta visual a un impulso eléctrico. Estos sensores no poseen una visión convencional, sino que perciben un haz de luz constante que al ser interrumpido (o al variar de intensidad) genera un estímulo medible.
 Son esenciales para muchas actividades dentro de la industria, principalmente como detectores de intrusos en al campo de trabajo de una maquinaria industrial, lo que permite parar el trabajo antes de colisionar con algún objeto o persona.
 En su mayoría, suelen estar compuestos por fotorresistencias o componentes fotoeléctricos y pueden proporcionan una cantidad muy grande de datos sobre un área concreta.
 
-ACONDICIONADOR DE SEÑAL
+# ACONDICIONADOR DE SEÑAL
 
 El acondicionamiento de señal es un proceso de adquisición de datos que se lleva a cabo mediante un instrumento llamado acondicionador de señal. Ese instrumento convierte un tipo de señal eléctrica o mecánica (señal de entrada) en otro (señal de salida).  El objetivo consiste en amplificar la señal y convertirla a otro formato fácil de leer y compatible con fines de adquisición de datos o de control de una máquina.
 Un acondicionador de señal ayuda a obtener medidas precisas, como condición esencial para la exactitud de la adquisición de datos o del control de máquinas. Este tipo de instrumentos son capaces de efectuar otras funciones adicionales. 
@@ -135,7 +137,10 @@ El circuito tiene la capacidad de amplificar la intensidad o magnitud de la señ
 El convertidor, conocido principalmente como ADC es el traductor de todos los códigos que se utilizan, es decir, es el artefacto que transforma las señales analógicas recibidas por el sensor en señales digitales, con el fin de que cualquier equipo electrónico, como una computadora, sea capaz de comprenderlos y leerlos.
 Toda la información del mundo físico que ya fue transformada a un sistema digital pasa por un artefacto llamado bus, el cual detecta las señales y nuevamente las interpreta y las traduce para que pueda ser vislumbrada en la pantalla del ordenador. Esto lo hace una vez que el DAQ es conectado a la computadora a través de cualquier puerto de entrada (USB, Ethernet, etcétera).
 
-TIPOS DE ACONDICIONADOR DE SEÑAL
+## TIPOS DE ACONDICIONADOR DE SEÑAL
+
+![](https://github.com/IVANZAGAL996/INVESTIGACION/blob/main/Captura.PNG?raw=true)
+![](https://github.com/IVANZAGAL996/INVESTIGACION/blob/main/Captura.PNG?raw=true)
 
 
 
