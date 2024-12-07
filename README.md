@@ -159,7 +159,7 @@ Toda la información del mundo físico que ya fue transformada a un sistema digi
   ### Desarrollado por 
 EDGAR IVAN PROSPERO ZAGAL PONCE
 
-[GitHub]()
+[GitHub](https://github.com/IVANZAGAL996/INVESTIGACION/tree/main)
 
 
 
