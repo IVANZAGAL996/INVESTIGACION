@@ -140,6 +140,26 @@ Toda la información del mundo físico que ya fue transformada a un sistema digi
 ## TIPOS DE ACONDICIONADOR DE SEÑAL
 
 ![](https://github.com/IVANZAGAL996/INVESTIGACION/blob/main/TIPOS%20DE%20ACONDICIONDOR%20DE%20SE%C3%91AL.PNG?raw=true)
-![]()
+![](https://github.com/IVANZAGAL996/INVESTIGACION/blob/main/ACOND.PNG?raw=true)
+
+## BIBLIOGRAFIA
+
+ - ESCAÑO GONZÁLEZ JUAN MANUEL,  NUEVO GARCIA ANTONIO,  GARCÍA CABALLERO JAVIER  · (2019)  Integración de sistemas de automatización industrial. Ediciones Paraninfo, S.A
+ - Piedrafita Moreno Ramón · (2004)  Ingeniería de la automatización industrial.     Ra-Ma S.A. Editorial y Publicaciones.
+ - García Higuera Andrés · (2005)  El control automático en la industria. Ediciones de la Universidad de Castilla-La Mancha.
+
+## BIBLIOFRAFIA ELECTRÓNICA
+- https://biblus.us.es/bibing/proyectos/abreproy/91458/fichero/RodriguezGalisteoAdrian_TFG.pdf
+- https://www.aveva.com/es-es/solutions/operations/hmi/
+- https://www.jmi.com.mx/tarjetas-de-adquisicion-de-datos/
+. https://www.cursosaula21.com/que-es-la-automatizacion-industrial/
+. https://www.edsrobotics.com/blog/tipos-sensores-mas-usados/
+. https://dewesoft.com/es/blog/que-es-acondicionamiento-de-seal
+
+  ### Desarrollado por 
+EDGAR IVAN PROSPERO ZAGAL PONCE
+
+[GitHub]()
+
 
 
